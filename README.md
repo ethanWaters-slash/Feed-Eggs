@@ -1,4 +1,4 @@
-# TaskForce 📝  
+# Task Off 📝  
 *A lightweight task manager built with SwiftUI.*
 
 ## Overview
@@ -24,5 +24,5 @@ TaskForce is a productivity app designed to help users organize, track, and comp
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/taskforce.git
+   git clone https://github.com/your-username/Task-Off.git
    cd taskforce

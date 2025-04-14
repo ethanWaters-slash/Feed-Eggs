@@ -2,88 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Task Off - Get Stuff Done</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background-color: #007aff;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0.5rem 0 0.2rem;
-    }
-    header img {
-      width: 80px;
-      height: auto;
-      margin-bottom: 1rem;
-    }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-    .screenshot {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      margin: 1rem 0;
-    }
-    .features {
-      background: #fff;
-      padding: 1rem 2rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    footer {
-      text-align: center;
-      margin: 3rem 0;
-      font-size: 0.9rem;
-      color: #888;
-    }
-    .contact {
-      margin-top: 2rem;
-      font-size: 1rem;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Off – Get Stuff Done</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="appstore.png" alt="Task Off Logo">
-    <h1>Task Off</h1>
-    <p>Blast through your work load! Set deadlines. Get stuff done.</p>
-    <a href="https://apps.apple.com/us/app/task-off/id6744249455" target="_blank">
-  <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=2022-09-01" 
-       alt="Download on the App Store" 
-       style="margin-top: 20px; width: 200px;">
-</a>
+  <header class="hero">
+    <div class="hero-content">
+      <img src="appstore.png" alt="Task Off Logo" class="logo"/>
+      <h1>Task Off</h1>
+      <p class="tagline">Blast through your workload with laser focus.</p>
+      <a href="https://apps.apple.com/us/app/task-off/id6744249455" target="_blank">
+        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=2022-09-01" 
+             alt="Download on the App Store"
+             class="appstore-badge">
+      </a>
+    </div>
   </header>
-  <main>
-    <div class="features">
-      <h2>Features</h2>
-      <ul>
-        <li>Create and manage tasks easily</li>
-        <li>Set due dates and reminders</li>
-        <li>Repeat tasks daily, weekly, or monthly</li>
-        <li>Check tasks off and track progress</li>
-      </ul>
-    </div>
 
-    <div class="contact">
-      <h3>Need help?</h3>
-      <p>Find us if you can!</p>
-    </div>
+  <main>
+    <section class="features">
+      <h2>Features to Keep You Moving</h2>
+      <ul>
+        <li>📝 Create and manage tasks in seconds</li>
+        <li>⏰ Set deadlines and reminders</li>
+        <li>🔁 Repeat tasks daily, weekly, or monthly</li>
+        <li>✅ Check off tasks and visualize progress</li>
+      </ul>
+    </section>
+
+    <section class="screenshot-section">
+      <h2>Take a Look Inside</h2>
+      <div class="screenshots">
+        <img src="screenshot1.png" alt="Task Off Screenshot" class="screenshot"/>
+        <img src="screenshot2.png" alt="Task Off Screenshot" class="screenshot"/>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3>Need Help?</h3>
+      <p>Find us... if you can 😎</p>
+    </section>
   </main>
+
   <footer>
-    &copy; 2025 Task Off. All rights reserved.
+    <p>&copy; 2025 Task Off. All rights reserved.</p>
   </footer>
 </body>
 </html>
+

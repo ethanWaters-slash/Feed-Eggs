@@ -1,35 +1,113 @@
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Segoe UI', Roboto, -apple-system, sans-serif;
+  background-color: #f1f4f8;
+  color: #222;
+  line-height: 1.6;
 }
 
-header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
+/* Header Hero Section */
+.hero {
+  background: linear-gradient(135deg, #007aff, #0051d4);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
 }
 
-main {
-    padding: 20px;
-    text-align: center;
+.logo {
+  width: 90px;
+  margin-bottom: 1rem;
 }
 
-h1, h2, h3 {
-    color: #333;
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
-#faq-section, #contact-section {
-    margin-bottom: 40px;
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
-.faq-item {
-    margin-bottom: 20px;
+.appstore-badge {
+  width: 200px;
+  transition: transform 0.3s ease;
 }
 
+.appstore-badge:hover {
+  transform: scale(1.05);
+}
+
+/* Features */
+.features {
+  max-width: 800px;
+  margin: 3rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+.features h2 {
+  margin-bottom: 1rem;
+  color: #007aff;
+}
+
+.features ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.features li {
+  margin: 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+/* Screenshots */
+.screenshot-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.screenshot-section h2 {
+  color: #007aff;
+  margin-bottom: 1.5rem;
+}
+
+.screenshots {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.screenshot {
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Footer */
 footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+  background-color: #f9f9f9;
 }
